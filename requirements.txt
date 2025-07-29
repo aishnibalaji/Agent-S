@@ -21,3 +21,18 @@ google-genai
 pyobjc; platform_system == "Darwin"
 pywinauto; platform_system == "Windows"
 pywin32; platform_system == "Windows" 
+
+# Core dependencies
+agent-s  
+android-world 
+android-env 
+
+# LLM dependencies
+openai>=1.0.0  
+google-generativeai 
+
+# Utilities
+numpy
+pillow 
+pydantic  
+loguru  
